@@ -1,5 +1,10 @@
+import logic.Logic;
+import logic.RepeatedLogic;
+
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new RepeatedLogic(new Logic(), 10).run();
     }
+
 }
